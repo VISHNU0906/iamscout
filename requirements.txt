@@ -1,0 +1,4 @@
+# IAMScout dependencies
+# boto3 is the AWS SDK for Python. It pulls in botocore, which provides the
+# ClientError / BotoCoreError exception classes IAMScout catches per check.
+boto3>=1.34
